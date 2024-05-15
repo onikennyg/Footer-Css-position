@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    padding: 30px;
+}
+
+.first, .second, .third, .fourth, .fifth {
+    height: 300px;
+    margin: 10px;
+}
+
+.first {
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second {
+    flex: 17.5%;
+}
+.third {
+    flex: 17.5%;
+}
+.fourth {
+    flex: 17.5%;
+}
+.fifth {
+    flex: 17.5%;
+}
+
+.google {
+    height: 50px;
+    width: 50px;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+p {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+i {
+    padding: 15px;
+}
+button {
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 20px;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+    transition: all 0.2 ease-out;
+}
+h2 {
+    border: 1px solid;
+    width: 200px;
+    position: relative;
+    left: 300px;
+    bottom: 200px;
+}
+.parent {
+    height: 350px;
+    width: 350px;
+    border: 2px solid;
+    border-radius: 20px;
+    position: relative;
+   
+}
+.child {
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.jjj {
+    position: fixed;
+    font-size: 100px;
+    bottom: 50px;
+    right: 50px;
+    color: green;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: tomato;
+    position: sticky;
+    top: 100px;
+}
